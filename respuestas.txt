@@ -1,0 +1,23 @@
+Actividad 2
+¿Que hacen los parametros argc y argv?
+
+    argc (arguments count) es un numero que indica la cantidad
+    de argumentos que recibe el programa.
+
+    argv (argument value) es un arreglo que contiene las direcciones de los valores
+    de las variables que recibe el programa.
+
+¿Como se usa el programa? (Observe el video).
+
+    Para compilar el programa se ejecuta el siguiente comando:
+    $ gcc ch51.c -o ch51 -Wall
+
+    Luego, hay varias formas de correr el programa: De la forma simple, únicamente llamando el archivo ejecutable
+    o adicionandole parámetros
+
+    ./ch51
+    ./ch51 debug -file readme.txt
+
+    El programa imprime la cantidad de parametros que se le envian (argc) y los analiza,
+    si se envía el parametro "debug" imprime "PROGRAM DEBUG MODE", y adicionalmente si se
+    le indica los parámetros "-file archivo" imprime "PROGRAM READ FILENAME : archivo "
