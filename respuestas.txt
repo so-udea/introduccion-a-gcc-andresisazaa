@@ -20,4 +20,17 @@ Actividad 2
 
     El programa imprime la cantidad de parametros que se le envian (argc) y los analiza,
     si se envía el parametro "debug" imprime "PROGRAM DEBUG MODE", y adicionalmente si se
-    le indica los parámetros "-file archivo" imprime "PROGRAM READ FILENAME : archivo "
+    le indica los parámetros "-file archivo" imprime "PROGRAM READ FILENAME : archivo"
+
+Actividad 3
+¿Que hace la funcion atoi?
+
+    atoi simplemente convierte una variable de tipo cadena a un entero.
+
+Ademas de atoi existen otras funciones que permitan convertir cadenas de caracteres a numeros reales ¿cuales?
+
+    Existen las funciones strtonum(), strtof(), que convierten strings a int o a flotantes, respectivamente
+    
+    Existen funciones que convierten valores numericos a cadenas de caracteres ¿cuales?
+
+    itoa() convierte un entero en un string, gcvt() convierte un double en un string
